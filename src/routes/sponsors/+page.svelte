@@ -77,23 +77,8 @@
 
 
 <div class="w-full justify-center flex my-2">    
-  <div class="flex flex-row w-2/3 h-40 rounded-lg bg-primary-400 border-primary-800 border-4 ">
-    <div class="w-1/2 h-full flex flex-col justify-center items-center ">
-      <img src="https://www.ocftd.org/images/logo.svg" class="w-40"/>
-    </div>
-
-
-    <div class="flex flex-row w-full h-full">
-      <div class="w-1/2 h-full bg-red-500 p-2">
-        <p class="text-xl">OCFTD</p>
-        <p class="text-xs my-1">"Unlocking Young Students Full Potential for Success"</p>
-        <p class="text-xs my-3">OCFTD is dedicated to fostering a supportive and inclusive learning environment that helps students reach their full potential and make meaningful contributions to their communities.</p>
-      </div>
-    
-     <div class="flex flex-col w-1/2 h-full bg-blue-500 p-2 justify-center items-center">
-        <p class="text-base">OCFTD is committed to advancing the education of Canadian young students in STEM, Robotics, Leadership, and Entrepreneurship.</p>
-     </div>
-    </div>
+  <div class="flex flex-row w-1/6 h-40 rounded-lg bg-primary-400 border-primary-800 border-4  justify-center items-center">
+      <img src="https://www.ocftd.org/images/logo.svg" class="p-5"/>
 </div>
 
 </header>
