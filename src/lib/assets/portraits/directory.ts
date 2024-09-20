@@ -1,4 +1,3 @@
-import Image1 from "./image.png";
 import Image2 from "./image2.jpeg";
 import Image3 from "./image3.jpg";
 import Image4 from "./image4.jpeg";
@@ -18,14 +17,6 @@ import Image17 from "./image17.jpeg";
 import Image18 from "./image18.jpg";
 
 export const portraits = [
-	{
-		alt: "Picture of team member",
-		src: Image1,
-		title: "9663 Robot at Waterloo",
-		description:"sometext",
-		name: "L3m0ny"
-
-	},
 	{
 		alt: "Picture of team member",
 		src: Image2,
@@ -128,7 +119,7 @@ export const portraits = [
 		alt: "Picture of team member",
 		src: Image14,
 		title: "9663 Robot at Waterloo",
-		description:"I go to A.B. Lucas ss going in to grade eleven. I know nothing about coding or robots but I heard about this team through Haydar and he showed me ,and some other friends, coding stuff and it was fun so I wanted to join. I’d like to help with coding, business, and media but meeting on weekends is a big inconvenience since I’m not in London on weekends.",
+		description:"I go to A.B. Lucas ss going in to grade eleven. I heard about this team through Haydar and he showed me, and some other friends, coding stuff and it was fun so I wanted to join.",
 		name: "Cynthia"
 	},
 	{
