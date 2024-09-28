@@ -79,13 +79,14 @@
 <div class="p-10 bg-[url('{Background}')]">
 -->
 <header>
-
 <div class="mt-20 p-10 py-0 lg:py-32 mb-20 bg-cover bg-left-bottom bgimage">
-    <div class="p-4 flex justify-end">
-        <span class="mt-10 text-right text-6xl cool-font text-primary-100"><i>We are OffShape Robotics</i></span>
+    <!-- For the outer divs, set the alignment based on screen size -->
+    <div class="p-4 flex justify-start lg:justify-end">
+        <!-- Set the text alignment to left on mobile and right on larger screens -->
+        <span class="mt-10 text-left lg:text-right text-6xl cool-font text-primary-100"><i>We are OffShape Robotics</i></span>
     </div>
-    <div class="p-4 flex justify-end">
-        <span class="text-right block mt-1 text-3xl leading-tight cool-font text-primary-100 font-medium"><i>A team of amazing people</i></span>
+    <div class="p-4 flex justify-start lg:justify-end">
+        <span class="text-left lg:text-right block mt-1 text-3xl leading-tight cool-font text-primary-100 font-medium"><i>A team of amazing people</i></span>
     </div>
 </div>
 
