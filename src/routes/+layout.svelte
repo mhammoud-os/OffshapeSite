@@ -17,9 +17,9 @@
 </style>
 
 <div class="layout-container">
-	<Navbar />
 	<div class="content">
 		<slot></slot>
 	</div>
+	<Navbar />
     <Footer />
 </div>

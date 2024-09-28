@@ -70,15 +70,14 @@
 -->
 <header>
 
-<div class="flex flex-col">
-		<div class=" cool-font p-10 text-7xl text-center">Sponsors</div>
-</div>
+	<div class="mt-24 flex flex-col">
+			<div class=" cool-font p-10 text-7xl text-center">Sponsors</div>
+	</div>
 
-
-
-<div class="w-full justify-center flex my-2">    
-  <div class="flex flex-row w-1/6 h-40 rounded-lg bg-primary-400 border-primary-800 border-4  justify-center items-center">
-      <img src="https://www.ocftd.org/images/logo.svg" class="p-5"/>
-</div>
+	<div class="w-full p-4 justify-center flex my-2">
+		<div class="w-full max-w-lg flex flex-row w-1/6 h-40 rounded-lg bg-primary-400 border-primary-800 border-4  justify-center items-center">
+				<img src="https://www.ocftd.org/images/logo.svg" class="p-5"/>
+		</div>
+	</div>
 
 </header>

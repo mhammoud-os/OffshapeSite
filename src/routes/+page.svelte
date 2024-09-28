@@ -49,12 +49,10 @@
 
 </style>
 
-<header style="height:100%; overflow: hidden">
+<header style="height:100%; overflow: hidden" class="mt-12">
 	<div class="sm:w-1/2 ml-4">
-		<span class="text-7xl cool-font">A <i class="mr-2">FIRST Robotics</i> Community Team in <span class="text-primary-800">London, Ontario, Canada</span></span>
+		<span class="text-6xl cool-font"><b>The</b> <i class="mr-1">FIRST Robotics</i> Community Team in <span class="text-primary-800">London, Ontario, Canada</span></span>
 		<br />
-		<Button size="xl" class="robo-font">About the Team</Button>
-		<Button size="xl" class="robo-font">Our Mission</Button>
 	</div>
 	<div class="sm:w-[46%] sm:visible" style="position: relative;">
 		<Carousel {images} duration={5000} class="rounded-none rounded-l-lg border-l-4 border-t-4 border-b-4 sm:border-primary-800 bg-primary-800" imgClass="rounded-md">
@@ -64,14 +62,7 @@
         </button>
 	</div>
 
-	<div class="bottom-div bg-primary-200 border-t-4 border-primary-700 pt-1 pb-1 pl-1">
-		<span class="font-bold text-primary-800 robo-font uppercase sm:visible">
-			Copyright (c) 2024 OffShape Robotics - All rights reserved
-			- <a href="https://www.instagram.com/offshape_robotics/" class="underline decoration-2 decoration-dashed">@offshape_robotics</a> on Instagram
-			- <a href="https://www.youtube.com/@OffshapeRobotics" class="underline decoration-2 decoration-dashed">@OffShapeRobotics</a> on Youtube
-			- <a href="https://www.thebluealliance.com/team/9663" class="underline decoration-2 decoration-dashed">The Blue Alliance</a>
-		</span>
-	</div>
+
 </header>
 
 {#if makeItRain}
