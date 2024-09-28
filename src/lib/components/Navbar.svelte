@@ -30,6 +30,7 @@
 	<NavUl class="sm:hidden order-1" {activeUrl} {activeClass} {nonActiveClass}>
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="/about">About</NavLi>
+		<NavLi href="/history">history</NavLi>
 		<NavLi href="/sponsors">Sponsors</NavLi>
 		<NavLi href="/contact">Contact</NavLi>
 	</NavUl>
@@ -61,18 +62,26 @@
 			</li>
 			<li>
 				{#if currentpage==3}
-					<a href="/sponsors" class="block py-2 px-3 text-primary-800 bg-primary-500 " on:click={() => (toggle*=-1, currentpage=3)}>Sponsors</a>
+					<a href="/history" class="block py-2 px-3 text-primary-800 bg-primary-500 " on:click={() => (toggle*=-1, currentpage=3)}>History</a>
 				{/if}
 				{#if currentpage!=3}
-					<a href="/sponsors" class="block py-2 px-3 text-primary-800 bg-primary-400 hover:bg-primary-300" on:click={() => (toggle*=-1, currentpage=3)}>Sponsors</a>
+					<a href="/history" class="block py-2 px-3 text-primary-800 bg-primary-400 hover:bg-primary-300" on:click={() => (toggle*=-1, currentpage=3)}>History</a>
 				{/if}
 			</li>
 			<li>
 				{#if currentpage==4}
-					<a href="/contact" class="block py-2 px-3 text-primary-800 bg-primary-500" on:click={() => (toggle*=-1, currentpage=4)}>Contact</a>
+					<a href="/sponsors" class="block py-2 px-3 text-primary-800 bg-primary-500 " on:click={() => (toggle*=-1, currentpage=4)}>Sponsors</a>
 				{/if}
 				{#if currentpage!=4}
-					<a href="/contact" class="block py-2 px-3 text-primary-800 bg-primary-400 hover:bg-primary-300" on:click={() => (toggle*=-1, currentpage=4)}>Contact</a>
+					<a href="/sponsors" class="block py-2 px-3 text-primary-800 bg-primary-400 hover:bg-primary-300" on:click={() => (toggle*=-1, currentpage=4)}>Sponsors</a>
+				{/if}
+			</li>
+			<li>
+				{#if currentpage==5}
+					<a href="/contact" class="block py-2 px-3 text-primary-800 bg-primary-500" on:click={() => (toggle*=-1, currentpage=5)}>Contact</a>
+				{/if}
+				{#if currentpage!=5}
+					<a href="/contact" class="block py-2 px-3 text-primary-800 bg-primary-400 hover:bg-primary-300" on:click={() => (toggle*=-1, currentpage=5)}>Contact</a>
 				{/if}
 			</li>
 		</ul>
