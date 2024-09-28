@@ -85,7 +85,7 @@
         <span class="mt-10 text-right text-6xl cool-font text-primary-100"><i>We are OffShape Robotics</i></span>
     </div>
     <div class="p-4 flex justify-end">
-        <span class="block mt-1 text-3xl leading-tight cool-font text-primary-100 font-medium"><i>A team of amazing people</i></span>
+        <span class="text-right block mt-1 text-3xl leading-tight cool-font text-primary-100 font-medium"><i>A team of amazing people</i></span>
     </div>
 </div>
 
