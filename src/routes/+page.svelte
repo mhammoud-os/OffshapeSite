@@ -29,13 +29,19 @@
 
     .logo {
         position: absolute;
-        bottom: -84%; /* Adjust as needed */
-        left: 50%; /* Adjust as needed to move it slightly to the left */
+        bottom: -40%; /* Adjust as needed */
+        left: 70%; /* Adjust as needed to move it slightly to the left */
         transform: rotate(-16deg); /* Rotate the logo */
         z-index: 2; /* Ensure the logo is on top */
-				width: 70%;
+				width: 35%;
     }
-
+    @media (max-width: 768px) {
+        .logo {
+            width: 45%; /* Increase the size for smaller screens */
+            left: 70%; /* Adjust the position if needed */
+            bottom: -10%; /* Adjust the bottom position for mobile */
+        }
+    }
 		.logo:active {
 				transform: rotate(-16deg) scale(0.9);
 		}
@@ -50,7 +56,7 @@
 </style>
 
 <header style="height:100%; overflow: hidden" class="mt-12">
-	<div class="sm:w-1/2 ml-4">
+	<div class="sm:w-1/2 sm:my-10 ml-4">
 		<span class="text-6xl cool-font"><b>The</b> <i class="mr-1">FIRST Robotics</i> Community Team in <span class="text-primary-800">London, Ontario, Canada</span></span>
 		<br />
 	</div>

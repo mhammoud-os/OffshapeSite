@@ -100,7 +100,7 @@
             <p class="mt-2 text-neutral-50 text-sm lg:text-lg" >
                 Offshape Robotics team #9663 is a robotics team made up of local high
                 school students determined to thrive in the FIRST® Robotics Competition.
-                Offshape Robotics was founded in the season of 2023-2024. With our talented
+                Offshape Robotics was founded in the season of 2023-2024 by <a href="https://ocftd.org" class="text-primary-200 hover:underline hover:text-primary-100" target="_blank" rel="noopener noreferrer">Ontario Center for Talent Development (OCFTD)</a> . With our talented
                 students and your help, we can accomplish extraordinary results. The team can
                 reach more students and promote STEM ideals with your assistance. Members gain lifelong
                 skills in business, teamwork, management, leadership, computer science, and
@@ -181,5 +181,19 @@
         {/each}
     </div>
 </div>
+
+    <div class="p-4 flex justify-center">
+        <span class="mt-20 text-center text-6xl cool-font">Team Host</span>
+    </div>
+    <div class="p-2 flex justify-center">
+        <a href="https://ocftd.org" class="text-2xl text-primary-900 hover:underline hover:text-primary-500" target="_blank" rel="noopener noreferrer">Ontario Center for Talent Development (OCFTD)</a>
+    </div>
+    <a href="https://ocftd.org" target="_blank">
+    <div class="mb-10 w-full justify-center flex my-2">
+        <div class="w-full max-w-lg flex flex-row w-1/6 h-40 rounded-lg bg-primary-400 border-primary-800 hover:bg-primary-300 border-4  justify-center items-center">
+            <img src="https://www.ocftd.org/images/logo.svg" class="p-5"/>
+        </div>
+    </div>
+    </a>
 
 </header>

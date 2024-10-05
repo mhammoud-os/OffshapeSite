@@ -42,7 +42,7 @@
 		</svg>
 	</button>
 	{#if toggle == -1}
-	<div class="sm:hidden w-full robo-font text-xl">
+	<div class="md:hidden w-full robo-font text-xl">
 		<ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50">
 			<li>
 				{#if currentpage==1}
